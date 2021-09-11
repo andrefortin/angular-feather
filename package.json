@@ -1,12 +1,12 @@
 {
-  "name": "angular-feather",
-  "version": "6.1.1",
+  "name": "angular-feather-af",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "lib:copy-assets": "cp README.md LICENSE dist/angular-feather",
-    "lib:build": "ng build angular-feather --prod && npm run lib:copy-assets",
-    "lib:publish": "npm publish dist/angular-feather",
+    "lib:copy-assets": "cp README.md LICENSE dist/angular-feather-af",
+    "lib:build": "ng build angular-feather-af --configuration production && npm run lib:copy-assets",
+    "lib:publish": "npm publish dist/angular-feather-af",
     "test": "ng test",
     "lint": "ng lint"
   },

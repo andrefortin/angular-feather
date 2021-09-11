@@ -20,9 +20,9 @@
       "dom"
     ],
     "paths": {
-      "angular-feather": [
-        "dist/angular-feather/angular-feather",
-        "dist/angular-feather"
+      "angular-feather-af": [
+        "dist/angular-feather-af/angular-feather-af",
+        "dist/angular-feather-af"
       ]
     }
   },

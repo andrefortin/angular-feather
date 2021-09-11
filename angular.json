@@ -7,43 +7,43 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-feather": {
+    "angular-feather-af": {
       "projectType": "library",
-      "root": "projects/angular-feather",
-      "sourceRoot": "projects/angular-feather/src",
+      "root": "projects/angular-feather-af",
+      "sourceRoot": "projects/angular-feather-af/src",
       "prefix": "feather",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/angular-feather/tsconfig.lib.json",
-            "project": "projects/angular-feather/ng-package.json"
+            "tsConfig": "projects/angular-feather-af/tsconfig.lib.json",
+            "project": "projects/angular-feather-af/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-feather/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-feather-af/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular-feather/src/test.ts",
-            "tsConfig": "projects/angular-feather/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-feather/karma.conf.js"
+            "main": "projects/angular-feather-af/src/test.ts",
+            "tsConfig": "projects/angular-feather-af/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-feather-af/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/angular-feather/**/*.ts",
-              "projects/angular-feather/**/*.html"
+              "projects/angular-feather-af/**/*.ts",
+              "projects/angular-feather-af/**/*.html"
             ]
           }
         }
       }
     }
   },
-  "defaultProject": "angular-feather"
+  "defaultProject": "angular-feather-af"
 }

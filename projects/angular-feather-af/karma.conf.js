@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/angular-feather'),
+      dir: require('path').join(__dirname, '../../coverage/angular-feather-af'),
       subdir: '.',
       reporters: [
         { type: 'html' },

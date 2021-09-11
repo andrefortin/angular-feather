@@ -1,6 +1,6 @@
 {
-  "name": "angular-feather",
-  "version": "6.1.1",
+  "name": "angular-feather-af",
+  "version": "0.0.1",
   "description": "Feather Icons components library for your Angular Applications",
   "repository": {
     "type": "git",
@@ -24,10 +24,9 @@
   },
   "homepage": "https://github.com/andrefortin/angular-feather#readme",
   "peerDependencies": {
-    "@angular/common": "^12.0.2",
-    "@angular/core": "^12.0.2"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
+    "@angular/common": "12.0.2",
+    "@angular/core": "12.0.2",
+    "rxjs": "~6.6.0",
+    "zone.js": "^0.11.4"
   }
 }

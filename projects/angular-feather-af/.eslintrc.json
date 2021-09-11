@@ -10,8 +10,8 @@
       ],
       "parserOptions": {
         "project": [
-          "projects/angular-feather/tsconfig.lib.json",
-          "projects/angular-feather/tsconfig.spec.json"
+          "projects/angular-feather-af/tsconfig.lib.json",
+          "projects/angular-feather-af/tsconfig.spec.json"
         ],
         "createDefaultProgram": true
       },
